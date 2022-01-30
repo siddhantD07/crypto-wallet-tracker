@@ -45,7 +45,7 @@ const WalletCard = ({ address }) => {
     }
     return (
       <div>
-        <a href={res.link}>Link</a>&emsp;&emsp;&emsp;
+        <a target="_blank" rel="noopener noreferrer" href={res.link}>Link</a>&emsp;&emsp;&emsp;
         <span>
           {res.action}&emsp;&emsp;&emsp;{timeConverter(res.timeStamp)}&emsp;&emsp;&emsp;{res.tokenName}&emsp;&emsp;&emsp;
         </span>
